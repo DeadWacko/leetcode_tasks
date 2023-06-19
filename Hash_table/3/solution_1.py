@@ -1,2 +1,2 @@
-def twoSum(self, nums: list[int], target: int) -> list[int]:
+def twoSum( nums: list[int], target: int) -> list[int]:
     pass
