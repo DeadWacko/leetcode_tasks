@@ -1,3 +1,8 @@
+# Решение:
+
+## Лучший вариант:
+
+```python
 def topKFrequent(nums: list[int], k: int) -> list[int]:
     count = {} # подсчет вхождений каждого элемента
     freq = [[] for i in range(len(nums) + 1)]
@@ -15,7 +20,12 @@ def topKFrequent(nums: list[int], k: int) -> list[int]:
             if len(res) == k:
                 return res
 
+```
 
-x = [1,1,1,2,2,100]
 
-topKFrequent(x,2)
+### Сложность:
+* Время: __O(n)__
+
+
+
+* Пространство: __O(n)__
